@@ -28,7 +28,7 @@ apis:
   tags: Datasets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/datasets/master/_listings/datagov/datasets-community-resources-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/datasets/master/_listings/datagov/datasets-community-resources-community-delete.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
