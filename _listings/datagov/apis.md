@@ -28,7 +28,7 @@ apis:
   tags: Datasets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/datasets/master/_listings/datagov/datasets-id-followers-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/datasets/master/_listings/datagov/me-datasets-get.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
