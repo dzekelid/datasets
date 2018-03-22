@@ -35,7 +35,7 @@ apis:
   tags: Datasets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/knoema/data-dataset-dataset-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/knoema/data-get-get.md
 x-common:
 - type: x-authentication
   url: https://knoema.com/dev/apps/authentication
