@@ -28,7 +28,7 @@ apis:
   tags: Datasets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/datagov/reuses-reuse-datasets-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/datagov/site-home-datasets-get.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
