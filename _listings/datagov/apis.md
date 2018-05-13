@@ -29,17 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/datagov/site-home-datasets-put.md
-- name: Data.gov API Get Me Datasets
-  description: List all my datasets (including private ones)
+- name: Data.gov API Get Me Org Datasets
+  description: List all datasets related to me and my organizations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Datasets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/datagov/me-datasets-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/datagov/me-org-datasets-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/datagov/me-datasets-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/datagov/me-org-datasets-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
