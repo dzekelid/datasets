@@ -1,0 +1,73 @@
+---
+swagger: "2.0"
+x-collection-name: Google Fit
+x-complete: 0
+info:
+  title: Google Fit API Delete All Data Source Datasets
+  description: Performs an inclusive delete of all data points whose start and end
+    times have any overlap with the time range specified by the dataset ID. For most
+    data types, the entire data point will be deleted. For data types where the time
+    span represents a consistent value (such as com.google.activity.segment), and
+    a data point straddles either end point of the dataset, only the overlapping portion
+    of the data point will be deleted.
+  contact:
+    name: Google
+    url: https://google.com
+  version: v1
+host: www.googleapis.com
+basePath: /fitness/v1/users
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /{userId}/dataSources/{dataSourceId}/datasets/{datasetId}:
+    delete:
+      summary: Delete All Data Source Datasets
+      description: Performs an inclusive delete of all data points whose start and
+        end times have any overlap with the time range specified by the dataset ID.
+        For most data types, the entire data point will be deleted. For data types
+        where the time span represents a consistent value (such as com.google.activity.segment),
+        and a data point straddles either end point of the dataset, only the overlapping
+        portion of the data point will be deleted.
+      operationId: fitness.users.dataSources.datasets.delete
+      x-api-path-slug: useriddatasourcesdatasourceiddatasetsdatasetid-delete
+      parameters:
+      - in: query
+        name: currentTimeMillis
+        description: The clients current time in milliseconds since epoch
+      - in: path
+        name: datasetId
+        description: Dataset identifier that is a composite of the minimum data point
+          start time and maximum data point end time represented as nanoseconds from
+          the epoch
+      - in: path
+        name: dataSourceId
+        description: The data stream ID of the data source that created the dataset
+      - in: query
+        name: modifiedTimeMillis
+        description: When the operation was performed on the client
+      - in: path
+        name: userId
+        description: Delete a dataset for the person identified
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

@@ -9,13 +9,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opend
 x-kinRank: "7"
 x-alexaRank: "323884"
 tags: Datasets
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/apis.md
 specificationVersion: "0.14"
 apis:
-- name: OpenDataSoft Get Source Datasets
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets
+  x-api-slug: sourcedatasets-get
   description: |-
     List of available datasets, each with their endpoints, paginated.
 
@@ -26,15 +26,16 @@ apis:
     * first page
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets
-  tags: Source,Datasets
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasets-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset
+  x-api-slug: sourcedatasetsdataset-id-get
   description: |-
     List of available endpoints for the specified dataset, with metadata and endpoints.
 
@@ -45,228 +46,301 @@ apis:
     * the catalog endpoint
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}
-  tags: Source,Datasets,Dataset,Id
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-id-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Aggregates
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Aggregates
+  x-api-slug: sourcedatasetsdataset-idaggregates-get
   description: Compute aggregations from dataset records and return a list of each
     aggregate indexed by their names.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/aggregates
-  tags: Source,Datasets,Dataset,Id,Aggregates
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idaggregates-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idaggregates-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Attachments
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Attachments
+  x-api-slug: sourcedatasetsdataset-idattachments-get
   description: Get list of all available attachments
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/attachments
-  tags: Source,Datasets,Dataset,Id,Attachments
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idattachments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idattachments-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Attachments Attachment
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Attachments Attachment
+  x-api-slug: sourcedatasetsdataset-idattachmentsattachment-id-get
   description: Download attachment
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/attachments/{attachment_id}
-  tags: Source,Datasets,Dataset,Id,Attachments,Attachment,Id
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idattachmentsattachment-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idattachmentsattachment-id-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Exports Csv
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Csv
+  x-api-slug: sourcedatasetsdataset-idexportscsv-get
   description: Export dataset in CSV format
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/exports/csv
-  tags: Source,Datasets,Dataset,Id,Exports,Csv
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportscsv-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportscsv-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Exports Geojson
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Geojson
+  x-api-slug: sourcedatasetsdataset-idexportsgeojson-get
   description: Export dataset in GEOJSON format
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/exports/geojson
-  tags: Source,Datasets,Dataset,Id,Exports,Geojson
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsgeojson-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsgeojson-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Exports Ical
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Ical
+  x-api-slug: sourcedatasetsdataset-idexportsical-get
   description: Export dataset in ICAL format
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/exports/ical
-  tags: Source,Datasets,Dataset,Id,Exports,Ical
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsical-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsical-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Exports Json
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Json
+  x-api-slug: sourcedatasetsdataset-idexportsjson-get
   description: Export dataset in JSON format
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/exports/json
-  tags: Source,Datasets,Dataset,Id,Exports,Json
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsjson-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsjson-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Exports Ov2
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Ov2
+  x-api-slug: sourcedatasetsdataset-idexportsov2-get
   description: Export dataset in OV2 format
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/exports/ov2
-  tags: Source,Datasets,Dataset,Id,Exports,Ov2
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsov2-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsov2-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Exports Shp
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Shp
+  x-api-slug: sourcedatasetsdataset-idexportsshp-get
   description: Export dataset in Esri shapefile (shp) format
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/exports/shp
-  tags: Source,Datasets,Dataset,Id,Exports,Shp
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsshp-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsshp-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Exports Xls
-  x-api-slug: opendatasoft
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Xls
+  x-api-slug: sourcedatasetsdataset-idexportsxls-get
   description: Export dataset in XLS (Excel) format
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/exports/xls
-  tags: Source,Datasets,Dataset,Id,Exports,Xls
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsxls-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsxls-get-openapi.md
-- name: OpenDataSoft Put Source Datasets Dataset Feedback
-  x-api-slug: opendatasoft
-  description: Create new feedback entry.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/feedback
-  tags: Source,Datasets,Dataset,Id,Feedback
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idfeedback-put-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Files File
-  x-api-slug: opendatasoft
-  description: Download file
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/files/{file_id}
-  tags: Source,Datasets,Dataset,Id,Files,File,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idfilesfile-id-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Records
-  x-api-slug: opendatasoft
-  description: Search dataset's records.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/records
-  tags: Source,Datasets,Dataset,Id,Records
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idrecords-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Records Record
-  x-api-slug: opendatasoft
-  description: Retrieve a single record based on its ID.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/records/{record_id}
-  tags: Source,Datasets,Dataset,Id,Records,Record,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idrecordsrecord-id-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Reuses
-  x-api-slug: opendatasoft
-  description: Get list of reuses
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/reuses
-  tags: Source,Datasets,Dataset,Id,Reuses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idreuses-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Reuses Reuse
-  x-api-slug: opendatasoft
-  description: Retrieve a single reuse based on its ID.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/reuses/{reuse_id}
-  tags: Source,Datasets,Dataset,Id,Reuses,Reuse,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idreusesreuse-id-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Snapshots
-  x-api-slug: opendatasoft
-  description: List of all snapshots for this dataset.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/snapshots
-  tags: Source,Datasets,Dataset,Id,Snapshots
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idsnapshots-get-openapi.md
-- name: OpenDataSoft Get Source Datasets Dataset Snapshots Snapshot
-  x-api-slug: opendatasoft
-  description: List of all snapshots for this dataset.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
-  humanURL: http://opendatasoft.com
-  baseURL: https://public.opendatasoft.com//api/v2//{source}/datasets/{dataset_id}/snapshots/{snapshot_id}
-  tags: Source,Datasets,Dataset,Id,Snapshots,Snapshot,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idsnapshotssnapshot-id-get-openapi.md
-- name: OpenDataSoft
-  x-api-slug: opendatasoft
-  description: OpenDataSoft is a cloud-based turnkey platform for data publishing
-    and API management. Its interface is intuitively designed to empower anyone, regardless
-    of technical skills, to upload easy-to-understand Open Data, or to even share
-    data within an admi...
+- name: OpenDataSoft - Get Source Datasets Dataset
+  x-api-slug: sourcedatasetsdataset-id-get
+  description: |-
+    List of available endpoints for the specified dataset, with metadata and endpoints.
+
+    Will provide links for:
+    * the attachments endpoint
+    * the files endpoint
+    * the records endpoint
+    * the catalog endpoint
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
   humanURL: http://opendatasoft.com
   baseURL: https://public.opendatasoft.com//api/v2
-  tags: Datasets
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-id-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-id-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Aggregates
+  x-api-slug: sourcedatasetsdataset-idaggregates-get
+  description: Compute aggregations from dataset records and return a list of each
+    aggregate indexed by their names.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idaggregates-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idaggregates-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Attachments
+  x-api-slug: sourcedatasetsdataset-idattachments-get
+  description: Get list of all available attachments
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idattachments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idattachments-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Attachments Attachment
+  x-api-slug: sourcedatasetsdataset-idattachmentsattachment-id-get
+  description: Download attachment
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idattachmentsattachment-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idattachmentsattachment-id-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Csv
+  x-api-slug: sourcedatasetsdataset-idexportscsv-get
+  description: Export dataset in CSV format
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportscsv-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportscsv-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Geojson
+  x-api-slug: sourcedatasetsdataset-idexportsgeojson-get
+  description: Export dataset in GEOJSON format
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsgeojson-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsgeojson-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Ical
+  x-api-slug: sourcedatasetsdataset-idexportsical-get
+  description: Export dataset in ICAL format
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsical-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsical-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Json
+  x-api-slug: sourcedatasetsdataset-idexportsjson-get
+  description: Export dataset in JSON format
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsjson-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsjson-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Ov2
+  x-api-slug: sourcedatasetsdataset-idexportsov2-get
+  description: Export dataset in OV2 format
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsov2-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsov2-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Shp
+  x-api-slug: sourcedatasetsdataset-idexportsshp-get
+  description: Export dataset in Esri shapefile (shp) format
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsshp-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsshp-get-openapi.md
+- name: OpenDataSoft - Get Source Datasets Dataset Exports Xls
+  x-api-slug: sourcedatasetsdataset-idexportsxls-get
+  description: Export dataset in XLS (Excel) format
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Cities, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsxls-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/sourcedatasetsdataset-idexportsxls-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://opencorporates.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://opendatasoft.stack.network
 - type: x-blog
   url: http://www.opendatasoft.com/category/news/
 - type: x-crunchbase

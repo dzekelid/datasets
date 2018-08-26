@@ -7,35 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-so
 x-kinRank: "8"
 x-alexaRank: "27308"
 tags: Datasets
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/bmc-software/apis.md
 specificationVersion: "0.14"
 apis:
-- name: BMC Software API List dataset
-  x-api-slug: bmc-software-api
+- name: BMC Software Merged API - List dataset
+  x-api-slug: v1datasets-get
   description: '*'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
   humanURL: http://www.bmc.com
-  baseURL: https://///v1/datasets/*
-  tags: Datasets
+  baseURL: https:///
+  tags: Monitoring, Applications, Devops, SaaS, Enterprise, Technology, ISP, API Provider,
+    API Service Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/bmc-software/v1datasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/bmc-software/v1datasets-get-openapi.md
-- name: BMC Software API
-  x-api-slug: bmc-software-api
-  description: Transform your digital enterprise with BMC IT solutions. From mainframe
-    to cloud to mobile, we???ll help you drive innovation and industrial efficiency.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg
-  humanURL: http://www.bmc.com
-  baseURL: https:///
-  tags: Datasets
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/bmc-software/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://blogger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bmc.software.stack.network
 - type: x-blog
   url: http://www.bmc.com/blogs
 - type: x-blog-rss

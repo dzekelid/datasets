@@ -197,6 +197,220 @@ paths:
       - Id
       - Exports
       - Json
+  /{source}/datasets/{dataset_id}/exports/ov2:
+    get:
+      summary: Get Source Datasets Dataset Exports Ov2
+      description: Export dataset in OV2 format
+      operationId: exportRecordsOV2
+      x-api-path-slug: sourcedatasetsdataset-idexportsov2-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Exports
+      - Ov2
+  /{source}/datasets/{dataset_id}/exports/shp:
+    get:
+      summary: Get Source Datasets Dataset Exports Shp
+      description: Export dataset in Esri shapefile (shp) format
+      operationId: exportRecordsSHP
+      x-api-path-slug: sourcedatasetsdataset-idexportsshp-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Exports
+      - Shp
+  /{source}/datasets/{dataset_id}/exports/xls:
+    get:
+      summary: Get Source Datasets Dataset Exports Xls
+      description: Export dataset in XLS (Excel) format
+      operationId: exportRecordsXLS
+      x-api-path-slug: sourcedatasetsdataset-idexportsxls-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Exports
+      - Xls
+  /{source}/datasets/{dataset_id}/feedback:
+    put:
+      summary: Put Source Datasets Dataset Feedback
+      description: Create new feedback entry.
+      operationId: sendDatasetFeedback
+      x-api-path-slug: sourcedatasetsdataset-idfeedback-put
+      parameters:
+      - in: body
+        name: feedback
+        description: Feedback entry
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Feedback
+  /{source}/datasets/{dataset_id}/files/{file_id}:
+    get:
+      summary: Get Source Datasets Dataset Files File
+      description: Download file
+      operationId: getDatasetFile
+      x-api-path-slug: sourcedatasetsdataset-idfilesfile-id-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Files
+      - File
+      - Id
+  /{source}/datasets/{dataset_id}/records:
+    get:
+      summary: Get Source Datasets Dataset Records
+      description: Search dataset's records.
+      operationId: getRecords
+      x-api-path-slug: sourcedatasetsdataset-idrecords-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Records
+  /{source}/datasets/{dataset_id}/records/{record_id}:
+    get:
+      summary: Get Source Datasets Dataset Records Record
+      description: Retrieve a single record based on its ID.
+      operationId: getRecord
+      x-api-path-slug: sourcedatasetsdataset-idrecordsrecord-id-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Records
+      - Record
+      - Id
+  /{source}/datasets/{dataset_id}/reuses:
+    get:
+      summary: Get Source Datasets Dataset Reuses
+      description: Get list of reuses
+      operationId: getDatasetReuses
+      x-api-path-slug: sourcedatasetsdataset-idreuses-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Reuses
+  /{source}/datasets/{dataset_id}/reuses/{reuse_id}:
+    get:
+      summary: Get Source Datasets Dataset Reuses Reuse
+      description: Retrieve a single reuse based on its ID.
+      operationId: getDatasetReuse
+      x-api-path-slug: sourcedatasetsdataset-idreusesreuse-id-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Reuses
+      - Reuse
+      - Id
+  /{source}/datasets/{dataset_id}/snapshots:
+    get:
+      summary: Get Source Datasets Dataset Snapshots
+      description: List of all snapshots for this dataset.
+      operationId: getDatasetSnapshots
+      x-api-path-slug: sourcedatasetsdataset-idsnapshots-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Snapshots
+  /{source}/datasets/{dataset_id}/snapshots/{snapshot_id}:
+    get:
+      summary: Get Source Datasets Dataset Snapshots Snapshot
+      description: List of all snapshots for this dataset.
+      operationId: downloadDatasetSnapshot
+      x-api-path-slug: sourcedatasetsdataset-idsnapshotssnapshot-id-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Snapshots
+      - Snapshot
+      - Id
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

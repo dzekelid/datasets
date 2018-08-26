@@ -73,4 +73,26 @@ paths:
       tags:
       - Providers
       - Datasets
+  /dataset/{id}.json:
+    get:
+      summary: get information about a specific dataset
+      description: Get information about a specific dataset.
+      operationId: getDataset
+      x-api-path-slug: datasetid-json-get
+      parameters:
+      - in: query
+        name: callback
+        description: callback
+      - in: path
+        name: id
+        description: id
+      - in: query
+        name: wskey
+        description: wskey
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+      - Id
 ---

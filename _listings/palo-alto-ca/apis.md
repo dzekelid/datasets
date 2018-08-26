@@ -1,26 +1,30 @@
 ---
 name: Palo Alto, CA
-description: The API allows direct access to the data published in the City of Palo
-  Alto Open Data site from your applications. It uses a RESTful interface and returns
-  the data in JSON format. Data streams invoked through the API provide online and
-  standarized access to data contained in HTML pages, XLS, CSV and other similar file
-  types available on Internet.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/city-of-palo-alto-logo.png
+x-slug: palo-alto-ca
+description: Fast, easy, and affordable way to transform data into resources that
+  businesses, governments, NGOs, academia and citizens can use.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1577-palo-alto,-ca.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Palo Alto
-- Datasets
-- City Government
-- City Government
-- California
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/datasets/master/_listings/palo-alto-ca/apis.yaml
+x-alexaRank: "1812573"
+tags: Datasets
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/palo-alto-ca/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/junar
+- type: x-email
+  url: contact@junar.com
+- type: x-email
+  url: support@junar.com
+- type: x-email
+  url: developers@junar.com
+- type: x-email
+  url: webmaster@junar.com
+- type: x-twitter
+  url: https://twitter.com/junar
 - type: x-website
   url: http://paloalto.opendata.junar.com/developers/
 include: []

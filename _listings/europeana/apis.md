@@ -7,47 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europe
 x-kinRank: "9"
 x-alexaRank: "68066"
 tags: Datasets
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Europeana get the list of Europeana datasets
-  x-api-slug: europeana
+- name: Europeana - get the list of Europeana datasets
+  x-api-slug: datasets-json-get
   description: Get the list of europeana datasets.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
-  baseURL: https://www.europeana.eu/v2///datasets.json
-  tags: Datasets
+  baseURL: https://www.europeana.eu/v2/
+  tags: Museums, Art, History, Library, Museum, API LIfeyclessss, Stack Network, API
+    Provider, Profiles, General Data, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/datasets-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/datasets-json-get-openapi.md
-- name: Europeana get the list of datasets provided by a specific provider
-  x-api-slug: europeana
+- name: Europeana - get the list of datasets provided by a specific provider
+  x-api-slug: provideriddatasets-json-get
   description: Get the list of datasets provided by a specific provider.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
-  baseURL: https://www.europeana.eu/v2///provider/{id}/datasets.json
-  tags: Providers,Datasets
+  baseURL: https://www.europeana.eu/v2/
+  tags: Museums, Art, History, Library, Museum, API LIfeyclessss, Stack Network, API
+    Provider, Profiles, General Data, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/provideriddatasets-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/provideriddatasets-json-get-openapi.md
-- name: Europeana
-  x-api-slug: europeana
-  description: Explore 51,990,182 artworks, artefacts, books, videos and sounds from
-    more than 3,500 museums, galleries, libraries and archives across Europe.
+- name: Europeana - get information about a specific dataset
+  x-api-slug: datasetid-json-get
+  description: Get information about a specific dataset.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
   humanURL: http://europeana.eu/portal/
   baseURL: https://www.europeana.eu/v2/
-  tags: Datasets
+  tags: Museums, Art, History, Library, Museum, API LIfeyclessss, Stack Network, API
+    Provider, Profiles, General Data, Historical Data API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/datasetid-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/datasetid-json-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://eu.vat.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://europeana.stack.network
 - type: x-base
   url: http://www.europeana.eu/api/
 - type: x-blog
