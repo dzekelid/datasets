@@ -3,11 +3,8 @@ swagger: "2.0"
 x-collection-name: Google Biquery
 x-complete: 0
 info:
-  title: Google BigQuery API Delete Dataset
-  description: Deletes the dataset specified by the datasetId value. Before you can
-    delete a dataset, you must delete all its tables, either manually or by specifying
-    deleteContents. Immediately after deletion, you can create another dataset with
-    the same name.
+  title: Google BigQuery API Create Dataset
+  description: Creates a new empty dataset.
   contact:
     name: Google
     url: https://google.com

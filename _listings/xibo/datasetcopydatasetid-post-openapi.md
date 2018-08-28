@@ -206,6 +206,22 @@ paths:
       tags:
       - Copy
       - DataSet
+  /dataset/data/{dataSetId}:
+    get:
+      summary: DataSet Data
+      description: Get Data for DataSet
+      operationId: dataSetData
+      x-api-path-slug: datasetdatadatasetid-get
+      parameters:
+      - in: path
+        name: dataSetId
+        description: The DataSet ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - DataSet
+      - Data
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

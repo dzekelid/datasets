@@ -3,13 +3,15 @@ swagger: "2.0"
 x-collection-name: Google Genomics
 x-complete: 0
 info:
-  title: Google Genomics API Get Datasets
+  title: Google Genomics API Restore Dataset
   description: |-
-    Lists datasets within a project.
+    Undeletes a dataset by restoring a dataset which was deleted via this API.
 
     For the definitions of datasets and other genomics resources, see
     [Fundamentals of Google
     Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
+
+    This operation is only possible for a week after the deletion occurred.
   contact:
     name: Google
     url: https://google.com

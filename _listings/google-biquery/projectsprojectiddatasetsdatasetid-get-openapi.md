@@ -106,6 +106,53 @@ paths:
           description: OK
       tags:
       - Dataset
+    patch:
+      summary: Update Dataset
+      description: Updates information in an existing dataset. The update method replaces
+        the entire dataset resource, whereas the patch method only replaces fields
+        that are provided in the submitted dataset resource. This method supports
+        patch semantics.
+      operationId: bigquery.datasets.patch
+      x-api-path-slug: projectsprojectiddatasetsdatasetid-patch
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: datasetId
+        description: Dataset ID of the dataset being updated
+      - in: path
+        name: projectId
+        description: Project ID of the dataset being updated
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+    put:
+      summary: Update Dataset
+      description: Updates information in an existing dataset. The update method replaces
+        the entire dataset resource, whereas the patch method only replaces fields
+        that are provided in the submitted dataset resource.
+      operationId: bigquery.datasets.update
+      x-api-path-slug: projectsprojectiddatasetsdatasetid-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: datasetId
+        description: Dataset ID of the dataset being updated
+      - in: path
+        name: projectId
+        description: Project ID of the dataset being updated
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

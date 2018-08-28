@@ -167,6 +167,61 @@ paths:
       tags:
       - Edit
       - DataSet
+    delete:
+      summary: Delete DataSet
+      description: Delete a DataSet
+      operationId: dataSetDelete
+      x-api-path-slug: datasetdatasetid-delete
+      parameters:
+      - in: path
+        name: dataSetId
+        description: The DataSet ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - DataSet
+  /dataset/copy/{dataSetId}:
+    post:
+      summary: Copy DataSet
+      description: Copy a DataSet
+      operationId: dataSetCopy
+      x-api-path-slug: datasetcopydatasetid-post
+      parameters:
+      - in: formData
+        name: code
+        description: A code for this DataSet
+      - in: formData
+        name: dataSet
+        description: The DataSet Name
+      - in: path
+        name: dataSetId
+        description: The DataSet ID
+      - in: formData
+        name: description
+        description: A description of this DataSet
+      responses:
+        200:
+          description: OK
+      tags:
+      - Copy
+      - DataSet
+  /dataset/data/{dataSetId}:
+    get:
+      summary: DataSet Data
+      description: Get Data for DataSet
+      operationId: dataSetData
+      x-api-path-slug: datasetdatadatasetid-get
+      parameters:
+      - in: path
+        name: dataSetId
+        description: The DataSet ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - DataSet
+      - Data
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

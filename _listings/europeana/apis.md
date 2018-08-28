@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europe
 x-kinRank: "9"
 x-alexaRank: "68066"
 tags: Datasets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/apis.md
 specificationVersion: "0.14"
 apis:
@@ -38,6 +38,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/provideriddatasets-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/provideriddatasets-json-get-openapi.md
+- name: Europeana - get information about a specific dataset
+  x-api-slug: datasetid-json-get
+  description: Get information about a specific dataset.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg
+  humanURL: http://europeana.eu/portal/
+  baseURL: https://www.europeana.eu/v2/
+  tags: Museums, Art, History, Library, Museum, API LIfeyclessss, Stack Network, API
+    Provider, Profiles, General Data, Historical Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/datasetid-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/datasetid-json-get-openapi.md
 - name: Europeana - get information about a specific dataset
   x-api-slug: datasetid-json-get
   description: Get information about a specific dataset.

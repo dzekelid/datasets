@@ -335,6 +335,82 @@ paths:
       - Records
       - Record
       - Id
+  /{source}/datasets/{dataset_id}/reuses:
+    get:
+      summary: Get Source Datasets Dataset Reuses
+      description: Get list of reuses
+      operationId: getDatasetReuses
+      x-api-path-slug: sourcedatasetsdataset-idreuses-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Reuses
+  /{source}/datasets/{dataset_id}/reuses/{reuse_id}:
+    get:
+      summary: Get Source Datasets Dataset Reuses Reuse
+      description: Retrieve a single reuse based on its ID.
+      operationId: getDatasetReuse
+      x-api-path-slug: sourcedatasetsdataset-idreusesreuse-id-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Reuses
+      - Reuse
+      - Id
+  /{source}/datasets/{dataset_id}/snapshots:
+    get:
+      summary: Get Source Datasets Dataset Snapshots
+      description: List of all snapshots for this dataset.
+      operationId: getDatasetSnapshots
+      x-api-path-slug: sourcedatasetsdataset-idsnapshots-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Snapshots
+  /{source}/datasets/{dataset_id}/snapshots/{snapshot_id}:
+    get:
+      summary: Get Source Datasets Dataset Snapshots Snapshot
+      description: List of all snapshots for this dataset.
+      operationId: downloadDatasetSnapshot
+      x-api-path-slug: sourcedatasetsdataset-idsnapshotssnapshot-id-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Snapshots
+      - Snapshot
+      - Id
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

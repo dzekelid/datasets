@@ -3,12 +3,11 @@ swagger: "2.0"
 x-collection-name: Google Fit
 x-complete: 0
 info:
-  title: Google Fit API Get All Data Source Datasets
-  description: Returns a dataset containing all data points whose start and end times
-    overlap with the specified range of the dataset minimum start time and maximum
-    end time. Specifically, any data point whose start time is less than or equal
-    to the dataset end time and whose end time is greater than or equal to the dataset
-    start time.
+  title: Google Fit API Add Data Point To Data Source Datasets
+  description: Adds data points to a dataset. The dataset need not be previously created.
+    All points within the given dataset will be returned with subsquent calls to retrieve
+    this dataset. Data points can belong to more than one dataset. This method does
+    not use patch semantics.
   contact:
     name: Google
     url: https://google.com

@@ -591,6 +591,216 @@ paths:
       - Dataset
       - Resources
       - R
+  /datasets/{dataset}/resources/{rid}/upload/:
+    post:
+      summary: Add Datasets Dataset Resources R Upload
+      description: Upload a file related to a given resource on a given dataset
+      operationId: postDatasetsDatasetResourcesRUpload
+      x-api-path-slug: datasetsdatasetresourcesridupload-post
+      parameters:
+      - in: path
+        name: dataset
+        description: The dataset ID or slug
+      - in: path
+        name: rid
+        description: The resource unique identifier
+      responses:
+        200:
+          description: OK
+      tags:
+      - Datasets
+      - Dataset
+      - Resources
+      - R
+      - Upload
+  /datasets/{dataset}/upload/:
+    post:
+      summary: Add Datasets Dataset Upload
+      description: Upload a new dataset resource
+      operationId: postDatasetsDatasetUpload
+      x-api-path-slug: datasetsdatasetupload-post
+      parameters:
+      - in: path
+        name: dataset
+        description: The dataset ID or slug
+      - in: formData
+        name: file
+      responses:
+        200:
+          description: OK
+      tags:
+      - Datasets
+      - Dataset
+      - Upload
+  /datasets/{dataset}/upload/community/:
+    post:
+      summary: Add Datasets Dataset Upload Community
+      description: Upload a new community resource
+      operationId: postDatasetsDatasetUploadCommunity
+      x-api-path-slug: datasetsdatasetuploadcommunity-post
+      parameters:
+      - in: path
+        name: dataset
+        description: The dataset ID or slug
+      - in: formData
+        name: file
+      responses:
+        200:
+          description: OK
+      tags:
+      - Datasets
+      - Dataset
+      - Upload
+      - Community
+  /datasets/{id}/followers/:
+    delete:
+      summary: Delete Datasets  Followers
+      description: Unfollow an object given its ID
+      operationId: deleteDatasetsFollowers
+      x-api-path-slug: datasetsidfollowers-delete
+      parameters:
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Datasets
+      - ""
+      - Followers
+    get:
+      summary: Get Datasets  Followers
+      description: List all followers for a given object
+      operationId: getDatasetsFollowers
+      x-api-path-slug: datasetsidfollowers-get
+      parameters:
+      - in: path
+        name: id
+      - in: query
+        name: page
+        description: The page to fetch
+      - in: query
+        name: page_size
+        description: The page size to fetch
+      responses:
+        200:
+          description: OK
+      tags:
+      - Datasets
+      - ""
+      - Followers
+    post:
+      summary: Add Datasets  Followers
+      description: Follow an object given its ID
+      operationId: postDatasetsFollowers
+      x-api-path-slug: datasetsidfollowers-post
+      parameters:
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Datasets
+      - ""
+      - Followers
+  /me/datasets/:
+    get:
+      summary: Get Me Datasets
+      description: List all my datasets (including private ones)
+      operationId: getMeDatasets
+      x-api-path-slug: medatasets-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Me
+      - Datasets
+  /me/org_datasets/:
+    get:
+      summary: Get Me Org Datasets
+      description: List all datasets related to me and my organizations
+      operationId: getMeOrgDatasets
+      x-api-path-slug: meorg-datasets-get
+      parameters:
+      - in: query
+        name: q
+        description: The string to filter items
+      responses:
+        200:
+          description: OK
+      tags:
+      - Me
+      - Org
+      - Datasets
+  /organizations/{org}/datasets/:
+    get:
+      summary: Get Organizations Org Datasets
+      description: List organization datasets (including private ones when member)
+      operationId: getOrganizationsOrgDatasets
+      x-api-path-slug: organizationsorgdatasets-get
+      parameters:
+      - in: path
+        name: org
+      responses:
+        200:
+          description: OK
+      tags:
+      - Organizations
+      - Org
+      - Datasets
+  /reuses/{reuse}/datasets/:
+    post:
+      summary: Add Reuses Reuse Datasets
+      description: Add a dataset to a given reuse
+      operationId: postReusesReuseDatasets
+      x-api-path-slug: reusesreusedatasets-post
+      parameters:
+      - in: body
+        name: payload
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: reuse
+        description: The reuse ID or slug
+      responses:
+        200:
+          description: OK
+      tags:
+      - Reuses
+      - Reuse
+      - Datasets
+  /site/home/datasets/:
+    get:
+      summary: Get Site Home Datasets
+      description: List homepage datasets
+      operationId: getSiteHomeDatasets
+      x-api-path-slug: sitehomedatasets-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Site
+      - Home
+      - Datasets
+    put:
+      summary: Put Site Home Datasets
+      description: Set the homepage datasets editorial selection
+      operationId: putSiteHomeDatasets
+      x-api-path-slug: sitehomedatasets-put
+      parameters:
+      - in: body
+        name: payload
+        description: Dataset IDs to put in homepage
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Site
+      - Home
+      - Datasets
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

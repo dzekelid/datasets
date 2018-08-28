@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/750-data-c
 x-kinRank: "7"
 x-alexaRank: "192378"
 tags: Datasets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-cookcountyil-gov/apis.md
 specificationVersion: "0.14"
 apis: []

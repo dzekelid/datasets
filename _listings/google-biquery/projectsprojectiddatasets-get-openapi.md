@@ -48,6 +48,112 @@ paths:
           description: OK
       tags:
       - Dataset
+    post:
+      summary: Create Dataset
+      description: Creates a new empty dataset.
+      operationId: bigquery.datasets.insert
+      x-api-path-slug: projectsprojectiddatasets-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: projectId
+        description: Project ID of the new dataset
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+  /projects/{projectId}/datasets/{datasetId}:
+    delete:
+      summary: Delete Dataset
+      description: Deletes the dataset specified by the datasetId value. Before you
+        can delete a dataset, you must delete all its tables, either manually or by
+        specifying deleteContents. Immediately after deletion, you can create another
+        dataset with the same name.
+      operationId: bigquery.datasets.delete
+      x-api-path-slug: projectsprojectiddatasetsdatasetid-delete
+      parameters:
+      - in: path
+        name: datasetId
+        description: Dataset ID of dataset being deleted
+      - in: query
+        name: deleteContents
+        description: If True, delete all the tables in the dataset
+      - in: path
+        name: projectId
+        description: Project ID of the dataset being deleted
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+    get:
+      summary: Get Dataset
+      description: Returns the dataset specified by datasetID.
+      operationId: bigquery.datasets.get
+      x-api-path-slug: projectsprojectiddatasetsdatasetid-get
+      parameters:
+      - in: path
+        name: datasetId
+        description: Dataset ID of the requested dataset
+      - in: path
+        name: projectId
+        description: Project ID of the requested dataset
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+    patch:
+      summary: Update Dataset
+      description: Updates information in an existing dataset. The update method replaces
+        the entire dataset resource, whereas the patch method only replaces fields
+        that are provided in the submitted dataset resource. This method supports
+        patch semantics.
+      operationId: bigquery.datasets.patch
+      x-api-path-slug: projectsprojectiddatasetsdatasetid-patch
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: datasetId
+        description: Dataset ID of the dataset being updated
+      - in: path
+        name: projectId
+        description: Project ID of the dataset being updated
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+    put:
+      summary: Update Dataset
+      description: Updates information in an existing dataset. The update method replaces
+        the entire dataset resource, whereas the patch method only replaces fields
+        that are provided in the submitted dataset resource.
+      operationId: bigquery.datasets.update
+      x-api-path-slug: projectsprojectiddatasetsdatasetid-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: datasetId
+        description: Dataset ID of the dataset being updated
+      - in: path
+        name: projectId
+        description: Project ID of the dataset being updated
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

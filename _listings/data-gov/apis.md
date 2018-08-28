@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Datasets
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
@@ -30,6 +30,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasets-get-openapi.md
+- name: Data.gov API - Add Datasets
+  x-api-slug: datasets-post
+  description: Create a new dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasets-post-openapi.md
 - name: Data.gov API - Get Datasets Badges
   x-api-slug: datasetsbadges-get
   description: List all available dataset badges and their labels
@@ -69,6 +80,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetscommunity-resources-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetscommunity-resources-get-openapi.md
+- name: Data.gov API - Add Datasets Community Resources
+  x-api-slug: datasetscommunity-resources-post
+  description: Create a new community resource
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetscommunity-resources-post-openapi.md
 - name: Data.gov API - Delete Datasets Community Resources Community
   x-api-slug: datasetscommunity-resourcescommunity-delete
   description: Delete a given community resource
@@ -95,6 +117,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetscommunity-resourcescommunity-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetscommunity-resourcescommunity-get-openapi.md
+- name: Data.gov API - Put Datasets Community Resources Community
+  x-api-slug: datasetscommunity-resourcescommunity-put
+  description: Update a given community resource
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetscommunity-resourcescommunity-put-openapi.md
 - name: Data.gov API - Add Datasets Community Resources Community Upload
   x-api-slug: datasetscommunity-resourcescommunityupload-post
   description: Update the file related to a given community resource
@@ -199,6 +232,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-get-openapi.md
+- name: Data.gov API - Put Datasets Dataset
+  x-api-slug: datasetsdataset-put
+  description: Update a dataset given its identifier
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-put-openapi.md
+- name: Data.gov API - Add Datasets Dataset Badges
+  x-api-slug: datasetsdatasetbadges-post
+  description: Create a new badge for a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetbadges-post-openapi.md
 - name: Data.gov API - Delete Datasets Dataset Badges Badge Kind
   x-api-slug: datasetsdatasetbadgesbadge-kind-delete
   description: Delete a badge for a given dataset
@@ -251,6 +306,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfull-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfull-get-openapi.md
+- name: Data.gov API - Add Datasets Dataset Resources
+  x-api-slug: datasetsdatasetresources-post
+  description: Create a new resource for a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresources-post-openapi.md
+- name: Data.gov API - Put Datasets Dataset Resources
+  x-api-slug: datasetsdatasetresources-put
+  description: Reorder resources
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresources-put-openapi.md
 - name: Data.gov API - Delete Datasets Dataset Resources R
   x-api-slug: datasetsdatasetresourcesrid-delete
   description: Delete a given resource on a given dataset
@@ -264,6 +341,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesrid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesrid-delete-openapi.md
+- name: Data.gov API - Put Datasets Dataset Resources R
+  x-api-slug: datasetsdatasetresourcesrid-put
+  description: Update a given resource on a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesrid-put-openapi.md
 - name: Data.gov API - Add Datasets Dataset Resources R Upload
   x-api-slug: datasetsdatasetresourcesridupload-post
   description: Upload a file related to a given resource on a given dataset
@@ -381,6 +469,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/organizationsorgdatasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/organizationsorgdatasets-get-openapi.md
+- name: Data.gov API - Add Reuses Reuse Datasets
+  x-api-slug: reusesreusedatasets-post
+  description: Add a dataset to a given reuse
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/reusesreusedatasets-post-openapi.md
 - name: Data.gov API - Get Site Home Datasets
   x-api-slug: sitehomedatasets-get
   description: List homepage datasets
@@ -394,6 +493,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/sitehomedatasets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/sitehomedatasets-get-openapi.md
+- name: Data.gov API - Put Site Home Datasets
+  x-api-slug: sitehomedatasets-put
+  description: Set the homepage datasets editorial selection
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/sitehomedatasets-put-openapi.md
 - name: Data.gov API - Delete Datasets Dataset
   x-api-slug: datasetsdataset-delete
   description: Delete a dataset given its identifier
@@ -420,6 +530,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-get-openapi.md
+- name: Data.gov API - Put Datasets Dataset
+  x-api-slug: datasetsdataset-put
+  description: Update a dataset given its identifier
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-put-openapi.md
+- name: Data.gov API - Add Datasets Dataset Badges
+  x-api-slug: datasetsdatasetbadges-post
+  description: Create a new badge for a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetbadges-post-openapi.md
 - name: Data.gov API - Delete Datasets Dataset Badges Badge Kind
   x-api-slug: datasetsdatasetbadgesbadge-kind-delete
   description: Delete a badge for a given dataset
@@ -472,6 +604,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfull-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfull-get-openapi.md
+- name: Data.gov API - Add Datasets Dataset Resources
+  x-api-slug: datasetsdatasetresources-post
+  description: Create a new resource for a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresources-post-openapi.md
+- name: Data.gov API - Put Datasets Dataset Resources
+  x-api-slug: datasetsdatasetresources-put
+  description: Reorder resources
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresources-put-openapi.md
 - name: Data.gov API - Delete Datasets Dataset Resources R
   x-api-slug: datasetsdatasetresourcesrid-delete
   description: Delete a given resource on a given dataset
@@ -485,6 +639,202 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesrid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesrid-delete-openapi.md
+- name: Data.gov API - Put Datasets Dataset Resources R
+  x-api-slug: datasetsdatasetresourcesrid-put
+  description: Update a given resource on a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesrid-put-openapi.md
+- name: Data.gov API - Add Datasets Dataset Resources R Upload
+  x-api-slug: datasetsdatasetresourcesridupload-post
+  description: Upload a file related to a given resource on a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesridupload-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesridupload-post-openapi.md
+- name: Data.gov API - Add Datasets Dataset Upload
+  x-api-slug: datasetsdatasetupload-post
+  description: Upload a new dataset resource
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetupload-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetupload-post-openapi.md
+- name: Data.gov API - Add Datasets Dataset Upload Community
+  x-api-slug: datasetsdatasetuploadcommunity-post
+  description: Upload a new community resource
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetuploadcommunity-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetuploadcommunity-post-openapi.md
+- name: Data.gov API - Delete Datasets Dataset
+  x-api-slug: datasetsdataset-delete
+  description: Delete a dataset given its identifier
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-delete-openapi.md
+- name: Data.gov API - Get Datasets Dataset
+  x-api-slug: datasetsdataset-get
+  description: Get a dataset given its identifier
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-get-openapi.md
+- name: Data.gov API - Put Datasets Dataset
+  x-api-slug: datasetsdataset-put
+  description: Update a dataset given its identifier
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdataset-put-openapi.md
+- name: Data.gov API - Add Datasets Dataset Badges
+  x-api-slug: datasetsdatasetbadges-post
+  description: Create a new badge for a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetbadges-post-openapi.md
+- name: Data.gov API - Delete Datasets Dataset Badges Badge Kind
+  x-api-slug: datasetsdatasetbadgesbadge-kind-delete
+  description: Delete a badge for a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetbadgesbadge-kind-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetbadgesbadge-kind-delete-openapi.md
+- name: Data.gov API - Delete Datasets Dataset Featured
+  x-api-slug: datasetsdatasetfeatured-delete
+  description: Unmark the dataset as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfeatured-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfeatured-delete-openapi.md
+- name: Data.gov API - Add Datasets Dataset Featured
+  x-api-slug: datasetsdatasetfeatured-post
+  description: Mark the dataset as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfeatured-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfeatured-post-openapi.md
+- name: Data.gov API - Get Datasets Dataset Full
+  x-api-slug: datasetsdatasetfull-get
+  description: Get a dataset given its identifier
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfull-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetfull-get-openapi.md
+- name: Data.gov API - Add Datasets Dataset Resources
+  x-api-slug: datasetsdatasetresources-post
+  description: Create a new resource for a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresources-post-openapi.md
+- name: Data.gov API - Put Datasets Dataset Resources
+  x-api-slug: datasetsdatasetresources-put
+  description: Reorder resources
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresources-put-openapi.md
+- name: Data.gov API - Delete Datasets Dataset Resources R
+  x-api-slug: datasetsdatasetresourcesrid-delete
+  description: Delete a given resource on a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesrid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesrid-delete-openapi.md
+- name: Data.gov API - Put Datasets Dataset Resources R
+  x-api-slug: datasetsdatasetresourcesrid-put
+  description: Update a given resource on a given dataset
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/datasetsdatasetresourcesrid-put-openapi.md
 - name: Data.gov API - Add Datasets Dataset Resources R Upload
   x-api-slug: datasetsdatasetresourcesridupload-post
   description: Upload a file related to a given resource on a given dataset

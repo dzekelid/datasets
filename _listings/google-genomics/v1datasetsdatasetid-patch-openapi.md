@@ -3,13 +3,15 @@ swagger: "2.0"
 x-collection-name: Google Genomics
 x-complete: 0
 info:
-  title: Google Genomics API Get Datasets
+  title: Google Genomics API Update Dataset
   description: |-
-    Lists datasets within a project.
+    Updates a dataset.
 
     For the definitions of datasets and other genomics resources, see
     [Fundamentals of Google
     Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
+
+    This method supports patch semantics.
   contact:
     name: Google
     url: https://google.com

@@ -1,0 +1,489 @@
+{
+	"name": "Streadata.io API Gallery - Datasets",
+	"description": "This is a repository of datasets APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/datasets.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://datasets.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Factual",
+			"x-api-slug": "factual",
+			"description": "Factual is pioneering how the world uses data to power mobile marketing, digital consumer products, mobile applications and real world analytics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg",
+			"humanURL": "http://www.factual.com/",
+			"baseURL": "https://api.v3.factual.com//",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/factual/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BMC Software",
+			"x-api-slug": "bmc-software",
+			"description": "Transform your digital enterprise with BMC IT solutions. From mainframe to cloud to mobile, we???ll help you drive innovation and industrial efficiency.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg",
+			"humanURL": "http://www.bmc.com",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/bmc-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.CookCountyIL.Gov",
+			"x-api-slug": "data-cookcountyil-gov",
+			"description": "Official Twitter account of Cook County Board President Toni Preckwinkle.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/750-data-cookcountyil-gov.jpg",
+			"humanURL": "https://datacatalog.cookcountyil.gov/",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-cookcountyil-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov.au",
+			"x-api-slug": "data-gov-au",
+			"description": "In a world that is becoming increasingly more visual, the ability to find and use images effectively gives communications professionals a competitive advantage. Cutcaster has tapped into a new creative universe of unique photos and vector illustrations that can be purchased royalty free for use in publishing, web design project, printing brochures, advertising, corporate marketing, electronic usage on websites and presentations. Cutcaster is the first model that adds a dynamic marketplace structure to support licensing user-generated photography and vectors. If you don&#8217;t have the budget or time to create the content yourself and want to find the most original, highest quality and authentic content not previously available to license and within your budget, then join us for free at Cutcaster.Sellers have the flexibility to set their prices or those new to the world of licensing can use the Cutcaster Algorithm to determine a fair market price for them. There are many ways to purchase photos and vectors from Cutcaster. Buyers can browse the growing Cutcaster image library, download comps, buy credits, sign up for corporate accounts, add images and vectors to their shopping cart without registering and immediately download content when they need it. In addition, buyers, if they choose, can seamlessly name their price by bidding on the photos or illustrations, which a seller can quickly accept, decline or submit a new offer back.  If we don&#8217;t have what you are looking for or you can&#8217;t find it anywhere during your search, you can request custom content and set a deadline in the ProjectRequest area on the homepage and give our amazing user-base the opportunity to &#8220;wow&#8221; you with fresh, authentic and timely content.",
+			"image": "",
+			"humanURL": "http://data.gov.au/",
+			"baseURL": "https://api.data.gov//regulations/v3",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov-au/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Medicare.Gov",
+			"x-api-slug": "data-medicare-gov",
+			"description": "Medicare.gov: the official U.S. government site for Medicare",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/753-data-medicare-gov.jpg",
+			"humanURL": "https://medicare.gov/",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-medicare-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OK.gov",
+			"x-api-slug": "ok-gov",
+			"description": "Welcome to Oklahomas Official Web Site",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/755-ok-gov.jpg",
+			"humanURL": "https://data.ok.gov/",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/ok-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Oregon.Gov",
+			"x-api-slug": "data-oregon-gov",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/756-data-oregon-gov.jpg",
+			"humanURL": "https://oregon.gov/",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-oregon-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Seattle, WA",
+			"x-api-slug": "seattle-wa",
+			"description": "Official city government site. Citizen, business, and visitor information sections, plus city government information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/757-seattle,-wa.jpg",
+			"humanURL": "https://data.seattle.gov/",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/seattle-wa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Europeana",
+			"x-api-slug": "europeana",
+			"description": "Explore 51,990,182 artworks, artefacts, books, videos and sounds from more than 3,500 museums, galleries, libraries and archives across Europe.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg",
+			"humanURL": "http://europeana.eu/portal/",
+			"baseURL": "https://www.europeana.eu/v2/",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "City of London",
+			"x-api-slug": "city-of-london",
+			"description": "The London Datastore has been created by the Greater London Authority (GLA) as an innovation towards freeing London&rsquo;s data. We want citizens to be able access the data that the GLA and other public sector organisations hold, and to use that data however they see fit &ndash; free of charge. The GLA is committed to influencing and cajoling other public sector organisations into releasing their data here too.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/city-of-london-logo.png",
+			"humanURL": "http://data.london.gov.uk/datastore",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/city-of-london/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Baltimore, MD",
+			"x-api-slug": "baltimore-md",
+			"description": "The official website of Charm City, Baltimore, Maryland.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/877-baltimore,-md.jpg",
+			"humanURL": "http://data.baltimorecity.gov",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/baltimore-md/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenDataPhilly ",
+			"x-api-slug": "opendataphilly-",
+			"description": "OpenDataPhilly is a portal that provides access to over 175 data sets, applications, and APIs related to the Philadelphia region. Built by Azavea, a Philadelphia-based Geographic Information Systems (GIS) software firm, it is now operated by the Philadelphia Public Interest Information Network, a Philadelphia-based non-profit organization. OpenDataPhilly is based on the idea that providing free and easy access to data information encourages better and more transparent government and a more engaged and knowledgeable citizenry.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/open-data-philly-logo.png",
+			"humanURL": "http://www.opendataphilly.org/",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendataphilly-/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RI.gov Open Data",
+			"x-api-slug": "ri-gov-open-data",
+			"description": "The Official Web Site of the State of Rhode Island",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/911-ri-gov-open-data.jpg",
+			"humanURL": "http://www.ri.gov",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/ri-gov-open-data/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Palo Alto, CA",
+			"x-api-slug": "palo-alto-ca",
+			"description": "Fast, easy, and affordable way to transform data into resources that businesses, governments, NGOs, academia and citizens can use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1577-palo-alto,-ca.jpg",
+			"humanURL": "http://paloalto.opendata.junar.com/developers/",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/palo-alto-ca/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CORE",
+			"x-api-slug": "core",
+			"description": "The Apache Tika&trade; toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries. You can find the latest release on the download page. See the Getting Started guide for instructions on how to start using Tika. Tika is a project of the Apache Software Foundation, and was formerly a subproject of Apache Lucene.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-tika-logo.png",
+			"humanURL": "http://core.kmi.open.ac.uk/intro/api",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/core/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenDataSoft",
+			"x-api-slug": "opendatasoft",
+			"description": "OpenDataSoft is a cloud-based turnkey platform for data publishing and API management. Its interface is intuitively designed to empower anyone, regardless of technical skills, to upload easy-to-understand Open Data, or to even share data within an admi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg",
+			"humanURL": "http://opendatasoft.com",
+			"baseURL": "https://public.opendatasoft.com//api/v2",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov",
+			"x-api-slug": "data-gov",
+			"description": "data.gov is a U.S. government website launched in late May 2009 by the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra. According to its website, The purpose of data.gov is to increase public access to high value, machine readable datasets generated by the Executive Branch of the Federal Government. The site seeks to become a repository for all the information the government collects. The site would publish to the public any data that is not private or restricted for national security reasons.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png",
+			"humanURL": "http://data.gov/",
+			"baseURL": "https://catalog.data.gov//api/3/",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GlobalChange.gov",
+			"x-api-slug": "globalchange-gov",
+			"description": "The U.S. Global Change Research Program (USGCRP) was established by Presidential Initiative in 1989 and mandated by Congress in the Global Change Research Act (GCRA) of 1990 to &ldquo;assist the Nation and the world to understand, assess, predict, and respond to human-induced and natural processes of global change.&rdquo;",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png",
+			"humanURL": "http://globalchange.gov/",
+			"baseURL": "https://data.globalchange.gov//",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/globalchange-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Knoema",
+			"x-api-slug": "knoema",
+			"description": "Knoema is the free to use public and open data platform for users with interests in statistics and data analysis, visual storytelling and making infographics and data-driven presentations",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg",
+			"humanURL": "https://knoema.com",
+			"baseURL": "http://knoema.com//api/1.0",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/knoema/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Quandl",
+			"x-api-slug": "quandl",
+			"description": "Quandl delivers financial data to users in the format they want. Access thousands of databases via the Quandl API or in your tool of choice.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg",
+			"humanURL": "http://quandl.com",
+			"baseURL": "https://www.quandl.com//api/v3",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/quandl/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Biquery",
+			"x-api-slug": "google-biquery",
+			"description": "BigQuery is Googles fully managed, petabyte scale, low cost enterprise data warehouse for analytics. BigQuery is serverless. There is no infrastructure to manage and you dont need a database administrator, so you can focus on analyzing data to find meaningful insights using familiar SQL. BigQuery is a powerful Big Data analytics platform used by all types of organizations, from startups to Fortune 500 companies.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigQuery_500px.png",
+			"humanURL": "https://cloud.google.com/bigquery/",
+			"baseURL": "://www.googleapis.com//bigquery/v2",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/google-biquery/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Fit",
+			"x-api-slug": "google-fit",
+			"description": "Google Fit is an open ecosystem that allows developers to upload fitness data to a central repository where users can access their data from different devices and apps in one location. Fitness apps can store data from any wearable or sensor. Fitness apps can access data created by any app. Users fitness data is persisted when they upgrade their fitness devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-fit.jpg",
+			"humanURL": "https://developers.google.com/fit/overview",
+			"baseURL": "://www.googleapis.com//fitness/v1/users",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/google-fit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Genomics",
+			"x-api-slug": "google-genomics",
+			"description": "Google Genomics helps the life science community organize the world&rsquo;s genomic information and make it accessible and useful. Big genomic data is here today, with petabytes rapidly growing toward exabytes. Through our extensions to Google Cloud Platform, you can apply the same technologies that power Google Search and Maps to securely store, process, explore, and share large, complex datasets.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/power-your-science.png",
+			"humanURL": "https://cloud.google.com/genomics/",
+			"baseURL": "://genomics.googleapis.com//",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/google-genomics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Datasets",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Datasets",
+	"include": [
+		{
+			"name": "Factual",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/factual/apis.yaml"
+		},
+		{
+			"name": "BMC Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/bmc-software/apis.yaml"
+		},
+		{
+			"name": "Data.CookCountyIL.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-cookcountyil-gov/apis.yaml"
+		},
+		{
+			"name": "Data.Gov.au",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov-au/apis.yaml"
+		},
+		{
+			"name": "Data.Medicare.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-medicare-gov/apis.yaml"
+		},
+		{
+			"name": "OK.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/ok-gov/apis.yaml"
+		},
+		{
+			"name": "Data.Oregon.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-oregon-gov/apis.yaml"
+		},
+		{
+			"name": "Seattle, WA",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/seattle-wa/apis.yaml"
+		},
+		{
+			"name": "Europeana",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/europeana/apis.yaml"
+		},
+		{
+			"name": "City of London",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/city-of-london/apis.yaml"
+		},
+		{
+			"name": "Baltimore, MD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/baltimore-md/apis.yaml"
+		},
+		{
+			"name": "OpenDataPhilly ",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendataphilly-/apis.yaml"
+		},
+		{
+			"name": "RI.gov Open Data",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/ri-gov-open-data/apis.yaml"
+		},
+		{
+			"name": "Palo Alto, CA",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/palo-alto-ca/apis.yaml"
+		},
+		{
+			"name": "CORE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/core/apis.yaml"
+		},
+		{
+			"name": "OpenDataSoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/opendatasoft/apis.yaml"
+		},
+		{
+			"name": "Data.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/data-gov/apis.yaml"
+		},
+		{
+			"name": "GlobalChange.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/globalchange-gov/apis.yaml"
+		},
+		{
+			"name": "Knoema",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/knoema/apis.yaml"
+		},
+		{
+			"name": "Quandl",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/quandl/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "Google Biquery",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/google-biquery/apis.yaml"
+		},
+		{
+			"name": "Google Fit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/google-fit/apis.yaml"
+		},
+		{
+			"name": "Google Genomics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/google-genomics/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/datasets/master/_listings/xibo/apis.yaml"
+		}
+	]
+}

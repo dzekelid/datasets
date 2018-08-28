@@ -373,6 +373,44 @@ paths:
       - Reuses
       - Reuse
       - Id
+  /{source}/datasets/{dataset_id}/snapshots:
+    get:
+      summary: Get Source Datasets Dataset Snapshots
+      description: List of all snapshots for this dataset.
+      operationId: getDatasetSnapshots
+      x-api-path-slug: sourcedatasetsdataset-idsnapshots-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Snapshots
+  /{source}/datasets/{dataset_id}/snapshots/{snapshot_id}:
+    get:
+      summary: Get Source Datasets Dataset Snapshots Snapshot
+      description: List of all snapshots for this dataset.
+      operationId: downloadDatasetSnapshot
+      x-api-path-slug: sourcedatasetsdataset-idsnapshotssnapshot-id-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+      - Datasets
+      - Dataset
+      - Id
+      - Snapshots
+      - Snapshot
+      - Id
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

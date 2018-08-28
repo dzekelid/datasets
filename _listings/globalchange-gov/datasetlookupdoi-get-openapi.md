@@ -52,6 +52,22 @@ paths:
       - Dataset
       - By
       - DOI
+  /dataset/{dataset_identifier}:
+    get:
+      summary: Get a representation of a dataset.
+      description: Get JSON which represents the structure of a dataset.
+      operationId: get-json-which-represents-the-structure-of-a-dataset
+      x-api-path-slug: datasetdataset-identifier-get
+      parameters:
+      - in: path
+        name: dataset_identifier
+        description: dataset_identifier description
+      responses:
+        200:
+          description: OK
+      tags:
+      - Representation
+      - Dataset
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

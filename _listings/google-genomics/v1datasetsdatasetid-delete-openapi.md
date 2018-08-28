@@ -100,6 +100,79 @@ paths:
           description: OK
       tags:
       - Dataset
+    get:
+      summary: Get Dataset
+      description: |-
+        Gets a dataset by ID.
+
+        For the definitions of datasets and other genomics resources, see
+        [Fundamentals of Google
+        Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
+      operationId: genomics.datasets.get
+      x-api-path-slug: v1datasetsdatasetid-get
+      parameters:
+      - in: path
+        name: datasetId
+        description: The ID of the dataset
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+    patch:
+      summary: Update Dataset
+      description: |-
+        Updates a dataset.
+
+        For the definitions of datasets and other genomics resources, see
+        [Fundamentals of Google
+        Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
+
+        This method supports patch semantics.
+      operationId: genomics.datasets.patch
+      x-api-path-slug: v1datasetsdatasetid-patch
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: datasetId
+        description: The ID of the dataset to be updated
+      - in: query
+        name: updateMask
+        description: An optional mask specifying which fields to update
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
+  /v1/datasets/{datasetId}:undelete:
+    post:
+      summary: Restore Dataset
+      description: |-
+        Undeletes a dataset by restoring a dataset which was deleted via this API.
+
+        For the definitions of datasets and other genomics resources, see
+        [Fundamentals of Google
+        Genomics](https://cloud.google.com/genomics/fundamentals-of-google-genomics)
+
+        This operation is only possible for a week after the deletion occurred.
+      operationId: genomics.datasets.undelete
+      x-api-path-slug: v1datasetsdatasetidundelete-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: datasetId
+        description: The ID of the dataset to be undeleted
+      responses:
+        200:
+          description: OK
+      tags:
+      - Dataset
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
